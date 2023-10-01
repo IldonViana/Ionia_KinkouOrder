@@ -37,6 +37,11 @@
 
 @media (max-width: 425px) {
 
+    .player {
+        top: auto;
+        bottom: 12px;
+    }
+
     main::after {
         background: linear-gradient(0deg, indianred 0%, rgba(0, 0, 0, 0) 35%) no-repeat;
         width: 100vw;    
