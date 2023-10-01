@@ -1,9 +1,7 @@
 @media (max-width: 769px) {
     
     main .personagem .imagem {
-        min-width: 400px;
-        min-height: 50vh;
-        background: linear-gradient(0deg, #000 50%, rgba(0, 0, 0, 0) 65%) no-repeat;
+        min-height: 60vh;
     }
     
     .conteudo {
@@ -33,19 +31,22 @@
     .botoes .botao img {
         max-width: 60px;
     }
+
+    .aviso{
+        bottom: 5px;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 425px) {
 
     .player {
-        top: auto;
-        bottom: 5px;
+        top: 5px;
     }
 
     main::after {
         background: linear-gradient(0deg, indianred 0%, rgba(0, 0, 0, 0) 35%) no-repeat;
-        width: 100vw;    
-        color: brown;
+        width: 100vw;
     }
     
     main .personagem .imagem {
@@ -61,8 +62,13 @@
     .conteudo .nome-personagem {
         font-size: 24px;
     }
+
+    .conteudo .descricao {
+        font-size: 15px;
+    }
     
     .botoes {
+        background-color: rgba(0, 0, 0, 0.3);
         padding: 20px;
         top: -10%;
         gap: 20px;
@@ -70,5 +76,9 @@
 
     .botoes .botao img {
         max-width: 50px;
+    }
+
+    .aviso{
+        font-size: 15px;
     }
 }
