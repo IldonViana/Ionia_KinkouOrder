@@ -39,7 +39,7 @@
 
     .player {
         top: auto;
-        bottom: 12px;
+        bottom: 5px;
     }
 
     main::after {
